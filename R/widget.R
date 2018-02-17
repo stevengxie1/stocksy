@@ -6,6 +6,7 @@ library(dygraphs)
 library(alphavantager)
 library(xts)
 library(htmlwidgets)
+
 AAPL <- tq_get("AAPL", get = "stock.prices")
 av_api_key("81J0XGEKMFFDRWUM")
 
