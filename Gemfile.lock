@@ -51,6 +51,8 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (>= 2.0, < 4.0)
+    chartjs-ror (3.3.1)
+      rails (>= 3.1)
     childprocess (0.8.0)
       ffi (~> 1.0, >= 1.0.11)
     coffee-rails (4.2.2)
@@ -62,8 +64,6 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
     crass (1.0.3)
-    d3-rails (4.10.2)
-      railties (>= 3.1)
     erubi (1.7.0)
     execjs (2.7.0)
     ffi (1.9.21)
@@ -179,8 +179,8 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capybara (~> 2.13)
+  chartjs-ror
   coffee-rails (~> 4.2)
-  d3-rails
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.7)
