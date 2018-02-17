@@ -14,4 +14,4 @@ MSFT <- av_get(symbol = "MSFT", av_fun = "TIME_SERIES_INTRADAY", interval = "15m
 
 MSFT <- MSFT[, c("timestamp","close")]
 MSFT <- xts(MSFT, order.by = MSFT$timestamp)
-saveWidget(dygraph(MSFT, main = "Microsoft Stock Data"),'msft')
+saveWidget(dygraph(MSFT, main = "Microsoft Stock Data"),'msft.html')
